@@ -11,7 +11,11 @@ Check the [wiki](https://github.com/nmorel/gwt-jackson/wiki) for more informatio
 
 Quick start
 -------------
-Add `<inherits name="com.github.nmorel.gwtjackson.GwtJackson" />` to your module descriptor XML file.
+Add the following to your module descriptor XML file:
+
+```
+<inherits name="com.github.nmorel.gwtjackson.GwtJackson" />
+```
 
 Then just create an interface extending `ObjectReader`, `ObjectWriter` or `ObjectMapper` if you want to read JSON, write an object to JSON or both.
 
