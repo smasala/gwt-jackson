@@ -129,6 +129,13 @@ In addition of gwt-jackson jar you can find [here](https://github.com/nmorel/gwt
 - [jackson-annotations-2.7.2-sources.jar](http://search.maven.org/remotecontent?filepath=com/fasterxml/jackson/core/jackson-annotations/2.7.2/jackson-annotations-2.7.2-sources.jar) for the GWT compilation only
 - [javapoet-1.0.0.jar](http://search.maven.org/remotecontent?filepath=com/squareup/javapoet/1.0.0/javapoet-1.0.0.jar) for the GWT compilation only
 
+Gradle example:
+
+    compile:    ':gwt-jackson:0.13.0',
+                ':javapoet:1.0.0',
+                ':jackson-annotations:2.8.0',
+                ':jackson-annotations:2.8.0:sources'
+
 Server communication
 -------------
 If you need to communicate with your server using REST/Json payload, you can check these framework which integrates gwt-jackson :
